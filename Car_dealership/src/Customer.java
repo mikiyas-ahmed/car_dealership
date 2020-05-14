@@ -4,6 +4,8 @@ public class Customer {
 		private String address;
 		private double cashOnHand;
 			
+
+		
 		public String getName() {
 				return name;
 			}
@@ -27,6 +29,9 @@ public class Customer {
 		public void setCashOnHand(double cashOnHand) {
 				this.cashOnHand = cashOnHand;
 			}
-		
+		public void purchaseCar(Vehicle vehicle, Employee employee, boolean finance) {
+			employee.handle(this, finance, vehicle);
+		}
 
+		
 }
