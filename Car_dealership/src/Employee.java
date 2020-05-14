@@ -18,7 +18,7 @@ public class Employee {
 	}
 	public void runCreditHistory(Customer cust, double loanAmount) {
 		System.out.println("Run credit history for customer.........");
-		System.out.println("customer has been aprouved to purchase the car");
+		System.out.println("customer has been aprouved to purchase the car...........");
 	}
 	public void processTransaction(Customer cust, Vehicle vehicle) {
 		System.out.println("the customer has purchased the car "+vehicle+" for the "+vehicle.getPrice()+" price");
